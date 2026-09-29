@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f7f2">
+  <title>English with Dinara — английский каждый день</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="На главную"><span class="brand-mark">e<span>.</span></span><span>english<span class="brand-light">with Dinara</span></span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Главное меню">
+      <a href="#lessons">Уроки</a><a href="#travel">Путешествия</a><a href="#beach">На пляже</a><a href="#practice">Практика</a>
+    </nav>
+    <a class="header-cta" href="#practice">Начать учиться <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> ТВОЙ АНГЛИЙСКИЙ — ТВОЙ ТЕМП</div>
+        <h1>Английский<br>открывает <em>больше.</em></h1>
+        <p class="hero-text">Понятные уроки, полезные слова и немного практики каждый день. Начни с простого — и скоро заметишь, как далеко ты продвинулся.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#lessons">Выбрать первый урок <span>→</span></a><a class="text-link" href="#vocabulary"><span class="play-icon">▶</span> Посмотреть слова</a></div>
+        <div class="hero-note"><div class="avatar-stack"><span>D</span><span>✦</span><span>✓</span></div><span>Маленький шаг — уже прогресс</span></div>
+      </div>
+      <div class="hero-art" aria-label="Иллюстрация с учебными карточками">
+        <div class="sun-shape"></div><div class="art-caption">LEARN A LITTLE<br><strong>EVERY DAY</strong></div>
+        <div class="floating-card card-word"><span class="card-label">СЛОВО ДНЯ</span><strong>curious</strong><span class="transcription">/ˈkjʊəriəs/</span><span class="translation">любознательный</span><button class="sound-button" data-speak="curious" aria-label="Послушать слово curious">⌁</button></div>
+        <div class="floating-card card-sticker">hello!<span>✳</span></div>
+        <div class="floating-card card-progress"><div class="progress-icon">✦</div><div><strong>Твой прогресс</strong><span>День 1 из 7</span></div><div class="progress-dots"><i class="done"></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✧</div><div class="art-pill">ENGLISH<br>IS A JOURNEY</div>
+      </div>
+    </section>
+
+    <section class="stats-strip"><div><strong>10 <small>минут</small></strong><span>на один урок</span></div><div><strong>01 <small>шаг</small></strong><span>чтобы начать</span></div><div><strong>∞ <small>возможностей</small></strong><span>впереди</span></div></section>
+
+    <section class="lessons section-wrap" id="lessons">
+      <div class="section-heading"><div><div class="eyebrow">ТВОЯ ТОЧКА СТАРТА</div><h2>Учись в своём ритме<span class="heading-dot">.</span></h2></div><a href="#practice" class="text-link desktop-link">Все материалы <span>→</span></a></div>
+      <div class="lesson-grid">
+        <article class="lesson-card lesson-lime"><div class="lesson-top"><span class="lesson-number">01 / ОСНОВЫ</span><span class="lesson-icon">Aa</span></div><h3>Первые<br>слова</h3><p>Поздоровайся, представься и начни общаться.</p><a class="round-arrow" href="#vocabulary" aria-label="Открыть первые слова">↗</a><div class="lesson-doodle">hello<span>!</span></div></article>
+        <article class="lesson-card lesson-peach"><div class="lesson-top"><span class="lesson-number">02 / ЛЕКСИКА</span><span class="lesson-icon">✳</span></div><h3>Слова на<br>каждый день</h3><p>Запоминай нужное через короткие тематические подборки.</p><a class="round-arrow" href="#vocabulary" aria-label="Открыть словарь">↗</a><div class="lesson-doodle doodle-star">✳</div></article>
+        <article class="lesson-card lesson-lavender"><div class="lesson-top"><span class="lesson-number">03 / ПРАКТИКА</span><span class="lesson-icon">✓</span></div><h3>Проверь<br>себя</h3><p>Пара вопросов поможет закрепить новые знания.</p><a class="round-arrow" href="#practice" aria-label="Перейти к практике">↗</a><div class="lesson-doodle doodle-check">✓</div></article>
+      </div>
+    </section>
+
+    <section class="vocabulary section-wrap" id="vocabulary">
+      <div class="vocab-intro"><div class="eyebrow">WORD OF THE DAY</div><h2>Слова, которые<br>пригодятся<span class="heading-dot">.</span></h2><p>Небольшая подборка для твоего первого разговора. Нажми на значок звука, чтобы услышать произношение.</p><a class="button button-outline" href="#practice">Закрепить слова <span>→</span></a></div>
+      <div class="word-list">
+        <article class="word-row"><span class="word-index">01</span><div class="word-main"><strong>hello</strong><span>привет</span></div><span class="word-example">Hello, how are you?</span><button class="sound-button" data-speak="Hello" aria-label="Послушать hello">⌁</button></article>
+        <article class="word-row"><span class="word-index">02</span><div class="word-main"><strong>learn</strong><span>учиться</span></div><span class="word-example">I learn English.</span><button class="sound-button" data-speak="learn" aria-label="Послушать learn">⌁</button></article>
+        <article class="word-row"><span class="word-index">03</span><div class="word-main"><strong>today</strong><span>сегодня</span></div><span class="word-example">Let’s start today.</span><button class="sound-button" data-speak="today" aria-label="Послушать today">⌁</button></article>
+        <article class="word-row"><span class="word-index">04</span><div class="word-main"><strong>together</strong><span>вместе</span></div><span class="word-example">We learn together.</span><button class="sound-button" data-speak="together" aria-label="Послушать together">⌁</button></article>
+      </div>
+    </section>
+
+    <section class="topics section-wrap" aria-label="Английский по темам">
+      <article class="topic-card topic-travel" id="travel">
+        <div class="topic-heading"><div><div class="eyebrow">USEFUL ENGLISH · 01</div><h2>Путешествия<span class="heading-dot">.</span></h2></div><span class="topic-illustration" aria-hidden="true">✈</span></div>
+        <p class="topic-description">Слова, которые пригодятся в аэропорту и в дороге.</p>
+        <div class="topic-words">
+          <div class="topic-word"><div><strong>ticket</strong><span>билет</span></div><button class="sound-button" data-audio="assets/audio/ticket.wav" aria-label="Послушать ticket">⌁</button></div>
+          <div class="topic-word"><div><strong>passport</strong><span>паспорт</span></div><button class="sound-button" data-audio="assets/audio/passport.wav" aria-label="Послушать passport">⌁</button></div>
+          <div class="topic-word"><div><strong>suitcase</strong><span>чемодан</span></div><button class="sound-button" data-audio="assets/audio/suitcase.wav" aria-label="Послушать suitcase">⌁</button></div>
+          <div class="topic-word"><div><strong>airport</strong><span>аэропорт</span></div><button class="sound-button" data-audio="assets/audio/airport.wav" aria-label="Послушать airport">⌁</button></div>
+          <div class="topic-word"><div><strong>reservation</strong><span>бронирование</span></div><button class="sound-button" data-audio="assets/audio/reservation.wav" aria-label="Послушать reservation">⌁</button></div>
+        </div>
+      </article>
+      <article class="topic-card topic-beach" id="beach">
+        <div class="topic-heading"><div><div class="eyebrow">USEFUL ENGLISH · 02</div><h2>На пляже<span class="heading-dot">.</span></h2></div><span class="topic-illustration beach-illustration" aria-hidden="true">☼</span></div>
+        <p class="topic-description">Собери всё нужное для солнечного дня у моря.</p>
+        <div class="topic-words">
+          <div class="topic-word"><div><strong>beach</strong><span>пляж</span></div><button class="sound-button" data-audio="assets/audio/beach.wav" aria-label="Послушать beach">⌁</button></div>
+          <div class="topic-word"><div><strong>sea</strong><span>море</span></div><button class="sound-button" data-audio="assets/audio/sea.wav" aria-label="Послушать sea">⌁</button></div>
+          <div class="topic-word"><div><strong>towel</strong><span>полотенце</span></div><button class="sound-button" data-audio="assets/audio/towel.wav" aria-label="Послушать towel">⌁</button></div>
+          <div class="topic-word"><div><strong>sunscreen</strong><span>солнцезащитный крем</span></div><button class="sound-button" data-audio="assets/audio/sunscreen.wav" aria-label="Послушать sunscreen">⌁</button></div>
+          <div class="topic-word"><div><strong>swimsuit</strong><span>купальник</span></div><button class="sound-button" data-audio="assets/audio/swimsuit.wav" aria-label="Послушать swimsuit">⌁</button></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="practice section-wrap" id="practice">
+      <div class="practice-panel"><div class="practice-copy"><div class="eyebrow">МИНИ-ПРАКТИКА · 1 ВОПРОС</div><h2>Проверим,<br>что запомнилось?</h2><p>Как по-английски сказать «сегодня»?</p><span class="quiz-hint">Выбери один вариант</span></div><div class="quiz-box"><div class="quiz-options"><button data-answer="today">today <span>01</span></button><button data-answer="tomorrow">tomorrow <span>02</span></button><button data-answer="together">together <span>03</span></button></div><p class="quiz-feedback" aria-live="polite">Твой первый ответ — отличный старт!</p><button class="quiz-reset" hidden>Попробовать ещё раз ↻</button></div><div class="practice-scribble">you<br>got this<span>✳</span></div></div>
+    </section>
+
+    <section class="closing section-wrap"><div class="closing-mark">✳</div><p>Каждый новый язык начинается<br>с одного <em>«hello».</em></p><a class="button button-dark" href="#home">Начать сначала <span>↑</span></a></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">e<span>.</span></span><span>english<span class="brand-light">with Dinara</span></span></a><span>Создано с интересом к английскому и новым возможностям.</span><a href="#home">Наверх ↑</a></footer>
+</body>
+</html>
